@@ -10,7 +10,7 @@ int main()
     
     if(x1>x4||x3>x2)
     printf("not overlapping");
-    else if(y1>y4||y3>y2)
+    else if(y1<y4||y3<y2)
     printf("not overlapping");
     else
     printf("overlapping");
